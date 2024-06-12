@@ -1,0 +1,8 @@
+datasets
+pandas
+matplotlib
+transformers
+IProgress
+accelerate
+huggingface_hub
+gradio
