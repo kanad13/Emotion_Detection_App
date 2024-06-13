@@ -4,24 +4,24 @@
 
 - This project aims to develop an application that detects and classifies emotions in text inputs.
 - I use a pre-trained model on the Emotion dataset, to showcase the capabilities of Hugging Face models and Gradio interfaces.
-- The entire workflow is consolidated within a single Jupyter Notebook, so that anyone can adapt and experiment with it.
+- The entire workflow is consolidated within a single Jupyter Notebook, making it easy for anyone to adapt and experiment with it.
 - I have added detailed comments and helpful tips to the code so that you can parse it without any specialized AI/ML knowledge.
 - This project reflects my journey and learning in the AI/ML domain, showcasing my ability to apply these technologies to real-world scenarios.
 
 ## Motivation
 
-- I enjoy evaluating different AI/ML models and checking out their capabilities.
+- I enjoy evaluating different AI/ML models and exploring their capabilities.
 - The [Emotion dataset on Hugging Face](https://huggingface.co/datasets/dair-ai/emotion) contains English Twitter messages labeled with six basic emotions: `anger, fear, joy, love, sadness, and surprise`.
-- I found it interesting and used a pre-trained model, fine-tuned it on this dataset, and then used [Gradio](https://www.gradio.app) to build a user interface and deploy it on [Hugging Face](https://huggingface.co).
-- The [fine-tuned model](https://huggingface.co/kanad13/emotion_detection/tree/main) may not be the best due to resource constraints during training. However, you can achieve better performance by executing the [Jupyter Notebook](/Emotion_Detection_App.ipynb) with more better resources.
-- My motivation was to create a modular Jupyter Notebook that can be quickly modified by me or others to check out other models too.
+- I found it interesting and used a [pre-trained model](https://huggingface.co/distilbert/distilbert-base-uncased), fine-tuned it on Emotion dataset, and then used [Gradio](https://www.gradio.app) to build a user interface and deploy it on [Hugging Face](https://huggingface.co).
+- The fine-tuned model [can be found here](https://huggingface.co/kanad13/emotion_detection/tree/main).
+- You can check out the [Jupyter Notebook here](/Emotion_Detection_App.ipynb). My motivation was to create a modular Jupyter Notebook that can be quickly modified by me or others to explore other models too.
 - [Here is the link](https://huggingface.co/spaces/kanad13/emotion-detection_app) to the Emotion Detection App if you would like to try it first hand.
 
 ## Ease of use
 
 - While there may be similar projects already developed, my goal is to consolidate the entire application within a single Jupyter Notebook.
 - This makes it easier for others and myself to adapt the code for using different models, changing hyperparameters, and fine-tuning it further.
-- I have put detailed comments throughout the code to ensure that it is understandable and adaptable.
+- I have included detailed comments throughout the code to ensure that it is understandable and adaptable.
 - Furthermore, it can work out-of-the-box on Google Colab or Apple Silicon Macs.
 
 ## Tools & Technologies used
