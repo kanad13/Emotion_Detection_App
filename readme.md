@@ -15,7 +15,7 @@
 - I found it interesting and used a pre-trained model, fine-tuned it on this dataset, and then used [Gradio](https://www.gradio.app) to build a user interface and deploy it on [Hugging Face](https://huggingface.co).
 - The [fine-tuned model](https://huggingface.co/kanad13/emotion_detection/tree/main) may not be the best due to resource constraints during training. However, you can achieve better performance by executing the [Jupyter Notebook](/Emotion_Detection_App.ipynb) with more better resources.
 - My motivation was to create a modular Jupyter Notebook that can be quickly modified by me or others to check out other models too.
-- ![Here is the link](https://huggingface.co/spaces/kanad13/emotion-detection_app) to the Emotion Detection App if you would like to try it first hand.
+- [Here is the link](https://huggingface.co/spaces/kanad13/emotion-detection_app) to the Emotion Detection App if you would like to try it first hand.
 
 ## Ease of use
 
