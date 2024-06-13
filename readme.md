@@ -70,16 +70,6 @@
   - [devcontainer.json](.devcontainer/devcontainer.json)
   - [postStart.sh](.devcontainer/postStart.sh)
 
-### Optional - Run Gradio locally
-
-- I have developed the UI for the app using Gradio. To use it, execute the following command:
-
-```bash
-python app.py
-```
-
-- The app will be accessible at `http://localhost:7860`.
-
 ## Project Workflow
 
 ### Step 1: Dataset Selection and Exploration
